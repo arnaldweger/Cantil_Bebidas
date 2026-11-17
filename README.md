@@ -42,11 +42,11 @@ Hoje o comprador usa a média das últimas 4 semanas com uma folga fixa de 24 di
 
 ### Gráficos
 
-![Volume mensal vendido em 2024 por categoria](imagens/imagem1.png)
+![Volume mensal vendido em 2024 por categoria](imagens/image1.png)
 
-![Estabilidade do erro (WMAPE) nas 9 janelas de 2024](imagens/imagem2.png)
+![Estabilidade do erro (WMAPE) nas 9 janelas de 2024](imagens/image2.png)
 
-![Equilíbrio econômico: custo total vs. nível de serviço](imagens/imagem3.png)
+![Equilíbrio econômico: custo total vs. nível de serviço](imagens/image3.png)
 
 ---
 
