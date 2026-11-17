@@ -42,11 +42,11 @@ Hoje o comprador usa a média das últimas 4 semanas com uma folga fixa de 24 di
 
 ### Gráficos
 
-![Volume mensal vendido em 2024 por categoria](imagens/imagem1.png)
+![Volume mensal vendido em 2024 por categoria](imagens/image1.png)
 
-![Estabilidade do erro (WMAPE) nas 9 janelas de 2024](imagens/imagem2.png)
+![Estabilidade do erro (WMAPE) nas 9 janelas de 2024](imagens/image2.png)
 
-![Equilíbrio econômico: custo total vs. nível de serviço](imagens/imagem3.png)
+![Equilíbrio econômico: custo total vs. nível de serviço](imagens/image3.png)
 
 ---
 
@@ -57,7 +57,7 @@ O trabalho segue o CRISP-DM. As decisões que mais pesaram:
 - **Escopo:** 17 dos 20 SKUs entram no modelo. ENE-02 (lançamento com menos de 6 meses) fica sob gestão manual. REF-04 e SUC-03 (sem vendas há mais de 90 dias) ficam bloqueados.
 - **Teste de antecedência:** só entram variáveis conhecidas no ato do pedido (vendas passadas, calendário, feriados e promoções negociadas). Ficam de fora `preco_caixa` e `estoque_cd`.
 - **Validação sem vazamento:** o treino termina 21 dias antes do primeiro pedido de teste, e a avaliação usa apenas segundas-feiras.
-- **Política de estoque:** a folga vem do problema do jornaleiro (*newsvendor*), calibrada pelo quantil dos erros fora da amostra.
+- **Política de estoque:** a folga vem do problema do jornaleiro (*newsvendor*) "equilíbrio entre o custo de faltar", calibrada pelo quantil dos erros fora da amostra.
 
 ---
 
